@@ -1,0 +1,63 @@
+* {
+    font-size: 12px;
+    font-family: 'Times New Roman';
+}
+
+td,
+th,
+tr,
+table {
+    border-top: 1px solid black;
+    border-collapse: collapse;
+}
+
+td.description,
+th.description {
+    width: 85px;
+    max-width: 85px;
+}
+
+td.quantity,
+th.quantity {
+    width: 40px;
+    max-width: 40px;
+    word-break: break-all;
+}
+
+td.price,
+th.price {
+    width: 80px;
+    max-width: 80px;
+    word-break: break-all;
+}
+
+.centered {
+    text-align: center;
+    align-content: center;
+}
+.image img{
+    border-radius: 100%;
+}
+.image{
+  font-size: 1.100rem;
+  font-weight: 800;
+  color: black;
+}
+
+.ticket {
+    width: 155px;
+    max-width: 155px;
+    body-align: center;
+}
+
+img {
+    max-width: inherit;
+    width: inherit;
+}
+
+@media print {
+    .hidden-print,
+    .hidden-print * {
+        display: none !important;
+    }
+}

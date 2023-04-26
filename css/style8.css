@@ -1,0 +1,72 @@
+/* Variables */
+:root {
+  --main-color:#2288ff;
+  --second-color: #192f6a;
+  --text-color: #314862;
+  --bg-color:  #fff;
+}
+
+
+header{
+  display: block;
+  width: 100%;
+  background : var(--bg-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index:  100;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 35px;
+}
+
+.container{
+  margin-top: 5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 440px;
+  border-radius: 1.5rem;
+  align-items: center;
+  text-align: center;
+  padding: 80px;
+}
+
+.about{
+  display: grid;
+  grid-template-columns:200px 220px;
+  gap: 2rem;
+  }
+
+.about-img img{
+  border-radius: 3rem 0 3rem 3rem;
+}
+
+.about-text {
+  font-size: 1.400rem;
+  font-weight: 800;
+  color: black;
+}
+.about-details a:link {
+  color: black;
+  background-color: transparent;
+}
+
+.option-list a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.400rem;
+  font-weight: 200;
+
+}
+
+
+
+
+
+
